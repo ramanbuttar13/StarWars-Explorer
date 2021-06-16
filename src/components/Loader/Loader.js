@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { Wrapper } from "./Loader.components";
 import LoaderImage from '../../static/loader.gif'
 

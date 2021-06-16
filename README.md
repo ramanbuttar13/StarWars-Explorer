@@ -1,6 +1,4 @@
-# VLM-REACT
-
-Star Wars Explorer
+# Star Wars Explorer
 
 ## How To Run Locally
 
