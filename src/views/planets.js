@@ -42,6 +42,10 @@ const useStyles = makeStyles((theme) => ({
     border: '1px solid black',
     borderRadius: '20px',
     padding: '50px',
+    [theme.breakpoints.down('sm')]: {
+      padding: '20px',
+      margin: '20px 20px 110px 20px'
+    },
     backgroundColor: theme.palette.background.paper,
   },
   item: {

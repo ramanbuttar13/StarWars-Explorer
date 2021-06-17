@@ -16,3 +16,20 @@ export const Wrapper = styled.div`
     margin-right: 20px;
   }
 `;
+export const ActionButtons = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  button {
+    vertical-align: middle;
+  }
+  @media screen and (max-width: 470px) {
+    display: grid;
+    justify-content: flex-end;
+    row-gap: 10px;
+    button {
+      height: 30px;
+      width: 100px;
+    }
+  }
+`;
